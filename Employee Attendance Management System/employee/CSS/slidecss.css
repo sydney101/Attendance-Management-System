@@ -1,0 +1,54 @@
+/*picture slide show */
+.slideshow{ 
+    height: 450px; 
+    border: 1px solid black;
+    width: 100%;
+    margin: 0;
+ 
+} 
+  
+/* styling for the slideshow on the homepage */
+ul.slideshow {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+}
+  
+ul.slideshow li {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;}
+ 
+ul.slideshow li.show {
+  z-index: 500;
+}
+ 
+ul img {
+  border: none;
+}
+ 
+#slideshow-caption{  
+  height: 42px;
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  z-index: 500;
+}
+ 
+#slideshow-caption .slideshow-caption-container {
+  padding: 10px 25px 10px 25px; 
+  background: transparent url(../image/transparent.png) repeat;  
+  z-index: 1000;
+}
+ 
+#slideshow-caption p {
+  padding: 0;
+  font: normal 130% arial, sans-serif;
+  color: #FFF;
+  text-shadow: 1px 1px #000;
+ }

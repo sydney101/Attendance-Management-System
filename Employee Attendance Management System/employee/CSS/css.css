@@ -1,0 +1,144 @@
+/*------ layout----------*/
+#wrapper{		
+		border: 1px solid black;		
+		text-align: justify;
+		padding: 0px;						 
+		box-shadow: 0px 1px 10px rgb(0, 0, 0);
+}
+/*-----*/
+/*----navigation-----*/
+#navigation{
+	margin: 0px;	
+	padding: 0px;
+}
+.navbar{	
+	
+	background-color: black;
+	color: white;
+	/*margin-bottom: 0px;*/
+}
+/*-----*/
+/*---content--*/
+#title{
+	color:black;
+	font: 14px;
+	padding: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+.border{
+	border: 1px solid black;
+
+}
+#content{
+	margin:px;
+	padding: 20px;
+	line-height: 2.0em;
+	font-size: 14pt;
+	font-family: verdana;
+	
+}
+h4{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 16pt;
+}
+h5{
+	font-weight: bold;
+	font-size: 15pt;
+
+}
+footer{
+	background-color: #333;
+	color: #eee;
+	padding: 10px;
+}
+.unstyle{
+	list-style: none;
+}
+.nopadding{
+	padding: 0px;
+	margin-top: 0px;	
+}
+#nopd{
+	margin: 0px;
+	padding-top: 0;
+
+}
+#logo{
+	float: right;
+	padding: 20px;
+}
+.control-label{
+	text-align: left;
+}
+#searcharea{
+	height: 100px;
+	margin-top: 10px;
+	padding-top: 20px;		
+	background-color:#CCD8FF;
+	box-shadow: 0px 1px 10px rgb(0, 0, 0);	
+	
+
+}
+#display{
+margin-top: 10px;
+padding: 10px;
+}
+#filtertable2{	
+	font-size: 16px;
+	font-family: tahoma;	
+	font-weight: bold;
+	border-spacing: 10px;
+	margin-bottom: 10px;
+	/*color: white;*/
+}
+#filtertable2 input[type='text'] ,select,input[type='submit'],input[type='reset']{
+	height: 30px;
+	width: 250px;
+	font-size: 16px;
+	}
+ #filtertable2 td{
+	padding: 8px;	
+	height: auto;
+	font-family: verdana;
+	
+}
+#panel{
+	width: 700px;
+	border: 1px solid black;	
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;	
+	padding: 5px;
+	min-height: 500px;
+	box-shadow: 0px 2px 10px rgb(0, 0, 0);
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+#form{
+	padding: 20px;
+}
+#documents{	
+	display: none;
+}
+/*----*/
+/*--=---------
+media Query
+--------------------*/
+@media (max-width: 768px) {
+	#title{	
+	padding: 5px;
+		
+}
+h2{
+	font-size: 16px;
+}
+#logo{
+	float: left;
+}
+}/*--small devices---*/
+@media (max-width: 768px){
+
+
+}
